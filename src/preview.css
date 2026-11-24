@@ -1,0 +1,38 @@
+.hero-preview-placeholder {
+  min-height: 345px;
+  display: grid;
+  place-items: center;
+  background: #111b2b;
+  box-shadow: none;
+}
+.preview-placeholder-inner {
+  padding: 35px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+}
+.preview-placeholder-inner > svg {
+  color: #6584b1;
+  margin-top: 10px;
+}
+.preview-placeholder-inner > b {
+  font-size: 16px;
+  color: #dce4ee;
+}
+.preview-placeholder-inner > p {
+  max-width: 280px;
+  color: #8d9bb0;
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 0;
+}
+.preview-placeholder-inner > a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+  color: #9ebdff;
+  font-size: 12px;
+}
